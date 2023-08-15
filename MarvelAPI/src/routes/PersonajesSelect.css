@@ -1,0 +1,53 @@
+.infoPersonaje{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 3%;
+  row-gap: 5%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.info__img{
+  width: 80%;
+  /*height: 298px;*/
+}
+
+.info__div__p, .info__div__li{
+  color: white;
+  font-size: large;
+}
+
+.info__div__li--sinPunto{
+  color: white;
+  font-size: large;
+  text-align: center;
+  list-style: none;
+}
+
+.info__div__li--link:hover, .info__a:hover{
+  color: #00ff15;
+}
+
+.info__div__h1{
+  color: #fa5f5f;
+  font-size: 600%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.info__div__p--titulo{
+  color: #fa5f5f;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.centrar{
+  text-align:center;
+}
+
+  

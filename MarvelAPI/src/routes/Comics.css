@@ -1,0 +1,36 @@
+.listado {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  row-gap: 2%;
+  column-gap: 3%;
+  height: 2550px;
+  justify-content: center;
+}
+
+/*EFECTO DE HOVER*/
+.listado--hover {
+  position: relative;
+  width: 100%;
+}
+.listado--hover__img {
+  display: block;
+  width: 100%;
+  height: 464px;
+}
+
+.listado--hover__p {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 13%;
+  transition: 0.8s ease;
+  opacity: 0; /*Si lo quitas, el cartel se queda fijo*/
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.listado--hover:hover .listado--hover__p {
+  opacity: 1;
+}
+

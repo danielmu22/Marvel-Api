@@ -1,0 +1,55 @@
+body {
+  margin: 1%;
+}
+
+.cartas {
+  /*CONTENEDOR CON TODAS LOS PERSONAJES*/
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  row-gap: 1%; 
+  column-gap: 3%;
+  justify-content: center;
+}
+
+.content img {
+  width: 100%;
+  height: 298px;
+}
+
+.content a{
+  text-decoration: none;
+}
+
+/*EFECTO DE HOVER*/
+.cartas--hover {
+  position: relative;
+  width: 100%;
+}
+.cartas--hover__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cartas--hover__p {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 8%;
+  transition: 0.8s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.cartas--hover:hover .cartas--hover__p {
+  opacity: 1;
+}
+
+.titulosPrincipales {
+  text-align: center;
+  color: #fd7070;
+  font-size: 500%;
+  font-family: 'Times New Roman', Times, serif;
+}

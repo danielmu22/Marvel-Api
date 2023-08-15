@@ -1,0 +1,73 @@
+/* CSS PARA LA APP*/
+
+
+body {
+  background-image: url('./img/wallpaper.jpg');
+}
+
+.logo {
+  width: 70%;
+}
+
+#icono,
+#icono2,
+#icono3,
+#icono4 {
+  margin-left: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+/*ESTILOS PARA EL MENÚ */
+.nav__a{
+  
+  color: aliceblue;
+  margin-left: 10%;
+  font-size: xx-large;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav__a--color:hover,
+.nav__a--color:active {
+  color:red;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 20% 60%;
+  align-items: center;
+}
+
+.heroes {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.separacion {
+  padding: 2%;
+}
+
+/*PÁGINA DE ERROR*/
+.error {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.error__p{
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font-size: 180%;
+  text-align: center;
+}
+
+.titulo{
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,54 @@
+.infoComic{
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.informacion{
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 3%;
+  row-gap: 5%;
+  justify-content: center;
+}
+
+.informacion2{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2%;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.informacion__img{
+  width: 80%;
+}
+
+.informacion__div__h1{
+  color: #fa5f5f;
+  font-size: 500%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.informacion__div__p,.informacion__div__li{
+  color: white;
+  font-size: medium;
+}
+
+.info__div__li--link:hover{
+  color:#00ff15;
+}
+  
+.informacion__div__p--titulo{
+  color: #fa5f5f;
+  font-size: 250%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.informacion__div__p--centrado{
+  text-align: center;
+}
+
+.blanco{
+  color: white;
+}

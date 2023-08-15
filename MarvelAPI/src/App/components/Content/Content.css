@@ -1,0 +1,39 @@
+.carousel .carousel-indicators {
+  margin-left: 19.9%;
+  margin-bottom: 1%;
+}
+
+.vs {
+  display: grid;
+  grid-template-columns: 40% 10% 40%;
+  gap: 3%;
+  justify-content: center;
+}
+
+.vs__img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.vs__h1 {
+  color: #fa5f5f;
+  font-size: 600%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.vs__p {
+  color: white;
+  font-size: medium;
+}
+
+.imagen {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+body{
+  margin-left: 2%;
+}

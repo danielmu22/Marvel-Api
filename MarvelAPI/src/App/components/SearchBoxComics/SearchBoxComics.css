@@ -1,0 +1,17 @@
+#search-comic {
+    margin-top: 2%;
+    width: 40%;
+    height: 50px;
+    padding: 8px;
+    font-size: 17px;
+    -webkit-appearance: none; /*Para borrar texto del search*/
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+  
+  /*BORRAR TEXTO DEL SEARCH*/
+  #search-comic::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+  }
+  
